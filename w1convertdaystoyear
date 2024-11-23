@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int days;
+    float year;
+
+    printf("enter a numberof days");
+    scanf("%d",&days);
+    year=days/365.0;
+    
+    printf("days %d is equal to year %2f",days,years);
+    return 0;
+
+}
